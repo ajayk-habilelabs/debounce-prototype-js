@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debounce prototype in JS.</title>
+
+    <style>
+        input {
+            display: block;
+            padding: 10px;
+            margin: 10px;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <p>Open Dev console and start typing something in input boxes and check console and network calls.</p>
+        <input type="text" name="textView1" placeholder="Type here for Async demo..." onkeyup="fnForAsyncCall()">
+        <input type="text" name="textView2" placeholder="Type here for Sync demo..." onkeyup="fnForSyncCall()">
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

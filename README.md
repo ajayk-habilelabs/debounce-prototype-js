@@ -1,2 +1,3 @@
-# debounce-prototype-js
-Implementation of debounce prototype in js 
+# Debounce prototype in JS
+
+Implementation of debounce prototype for functions in JS.
